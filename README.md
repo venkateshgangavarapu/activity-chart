@@ -4,4 +4,4 @@ Inorder to run the developer version you should have node installed on your mach
 
 Once downloaded, open command prompt from the extracted folder and <b> run npm install </b>. This will install all the dependencies mentioned in the config.
 
-You can start the server by running npm run-script dev. The page can be viewed from localhost:8080 in any web browser.
+You can start the server by running  <b> npm run-script dev  </b>. The page can be viewed from  <b> localhost:8080 </b> in any web browser.
