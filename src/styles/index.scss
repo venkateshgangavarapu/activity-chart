@@ -1,0 +1,83 @@
+/**********************************************
+
+(c) DSAS | 2017
+Author: Venkatesh Gangavarapu
+***********************************************/
+@import 'normalize';
+@mixin noSelect(){
+    user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-user-select: none!important;
+    -o-user-select: none!important;
+    -ms-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit: none!important
+}
+
+
+
+
+*, *:after,*:before{
+	box-sizing: border-box;
+
+  //For iOS tap glitch fix
+  -webkit-tap-highlight-color:transparent;
+}
+
+
+svg{
+  overflow: visible !important;
+}
+
+html,body{
+  background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	//@include noSelect;
+}
+
+#App{
+  overflow: hidden;
+}
+.main-cont{
+  width:100%;
+  height: 600px;
+}
+
+.side-bar{
+  margin-left: 2%;
+  width: 28%;
+  float: left;
+}
+.chart-cont{
+  width: 68%;
+  height: 600px;
+  float:left;
+}
+.time-cont p{
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+  color:#000;
+}
+
+.comment-cont p{
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color:grey;
+
+}
+
+@media only screen and (max-width: 900px){
+  .chart-cont{
+      width: 98%;
+  }
+  .side-bar{
+    width: 98%;
+  }
+
+  .comment-cont p{
+    width: 50%;
+    margin-left: 25%
+  }
+}
