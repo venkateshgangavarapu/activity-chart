@@ -14,7 +14,7 @@
     "d3-force-cluster": "^0.1.2",
     "d3v4": "^4.2.2",
     "nvm": "0.0.4",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "babel-core": "^6.8.0",
